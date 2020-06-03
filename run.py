@@ -13,7 +13,7 @@ import os
 server = Flask(__name__)
 server.secret_key = os.environ.get('secret_key', 'secret')
 app = dash.Dash(name = __name__, server = server)
-app.config.supress_callback_exceptions = True
+#app.config.supress_callback_exceptions = True
 
 path='europe.geojson'
 with open(path) as json_file:
@@ -42,10 +42,6 @@ dfTot=dfEurostat.loc[(dfEurostat['SEX']=='Total') &
 dfTot["Death_Toll"] = dfTot.apply(lambda x: ValuePop(x['TIME'], x['GEO'], 
                                                      x['Value']), axis = 1)
 
-
-
-#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-#app = dash.Dash(__name__)
 
 listeClasseMort=[]
 ClasseMortUnique=dfICD10['Classe_mortalité'].unique()[2:]
