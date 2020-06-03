@@ -1,0 +1,446 @@
+body{
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+address{
+	color: #757575;
+	font-size: 12px;
+}
+
+address a{
+	text-decoration: none;
+	color: #757575;
+}
+
+section{
+	padding-left: 20px;
+}
+
+section hr{
+	color: #537780;
+	margin-right: -15px;
+}
+
+section p{
+	text-align: justify;
+	font-family: "ubuntu",sans-serif;
+	line-height: 1.5}
+
+h1,h2,h3,h4,h5,h6{font-family: "Segoe UI",Arial,sans-serif;}
+
+h1{
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #000;
+	line-height: 1.5;
+	margin: 0 5px;
+}
+
+h2{
+	color: #222831;
+	font-size: 21px
+}
+
+h3{
+	color: #537780;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+h4{
+	color: #009688;
+	font-size: 12px;
+}
+
+h5{
+	color: #000;
+	font-size: 26px;
+	text-align: center;
+	font-family: "calluna",Garamond,"Times New Roman",serif;
+	font-weight: 200;
+	margin-top: 10px;
+	margin-bottom: 40px; 
+}
+
+h6{
+	color: #000839;
+	font-size: 16px;
+	font-family: Arial,Sans-Serif;
+	margin: 10px 0;
+}
+
+h7{
+	color: #537780;
+	font-size: 16px;
+	font-family: Ubuntu,Sans-Serif;
+	margin: 0 15px;
+}
+
+i{
+	color: #009688;
+	margin-right: 16px;
+	font-size: 10px
+}
+
+.offset i{
+	color: #005082;
+	margin-right: 16px;
+	font-size: 14px;
+}
+
+img{
+	width: 100%;
+}
+
+.skills ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: #537780;
+	line-height: 1.5;
+	font-family: Roboto,Sans-Serif;
+
+}
+
+iframe{
+	height: 1300px;
+	width: 100%;
+	border: none;
+}
+
+.active{
+	font-weight: bold;
+}
+
+.color_grey{
+	color: #757575;
+}
+
+.image{
+	position: absolute;
+	top: 45px;
+}
+
+.toggle_btn{
+	top: 15px;
+	position: sticky;
+	height: 30px;
+	width: 80px;
+	margin-top: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.toggle_btn_hidden{
+	top: 15px;
+	position: sticky;
+	height: 30px;
+	width: 80px;
+	margin-top: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+
+.toggle_btn p{
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	position: absolute;
+	top: -10px;
+	left: 45px;
+}
+
+.toggle_btn span{
+	height: 4px;
+	background-color: #34495e;
+	width: 40%;
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	border-radius: 25px;
+}
+
+.toggle_btn span:before{
+	content: '';
+	height: 4px;
+	background-color: #34495e;
+	width: 100%;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	border-radius: 25px;
+}
+
+.toggle_btn span:after{
+	content: '';
+	height: 4px;
+	background-color: #34495e;
+	width: 100%;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	border-radius: 25px;
+}
+
+.menu{
+	background-color: #537780;
+	margin-left: -100px;
+	height: 100%;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.menu a{
+	color: #ecf0f1;
+	text-align: left;
+	margin-left: 15px;
+	display: block;
+	padding-top: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Poppins", sans-serif;
+	font-size: 10px;
+}
+
+.menu i{
+	color: #ecf0f1;
+	position: relative;
+	left: 85%;
+	font-size: 24px;
+	cursor: pointer;	
+}
+
+.menu hr{
+	color: #ecf0f1;
+	margin-left: 15px;	
+}
+
+.nav{
+	position: sticky;
+	top: 24px;
+	visibility: hidden;
+	transition-duration: 0.3s;
+}
+
+.nav_open{
+	position: sticky;
+	top: 24px;
+	margin-top: 8px;
+	margin-left: -57px;
+	margin-right: 0px;
+	padding-bottom: 15px;
+	transition-duration: 1s;
+}
+
+.row{
+	display: flex;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+
+.width50{
+	width: 50%;
+}
+
+.position_part1{
+	width: 30%;
+}
+
+.position_part2_desktop{
+	width: 80%;
+	margin: 0 -15px;
+}
+
+.background{
+	max-width: 100%;
+	padding: 10px 15px;
+	margin: 15px;
+	color: #000;
+	background-color: #fff;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.background2{
+	max-width: 100%;
+	padding: 10px 15px;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-bottom: 15px;
+	color: #000;
+	background-color: #fff;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.background3{
+	max-width: 100%;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-bottom: 15px;
+	color: #000;
+	line-height: 1.4;
+	background-color: #fff;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.padding15{
+	padding: 0px 15px;
+}
+
+.margin15{
+	margin: 15px; 
+}
+
+.fa-user,.fa-suitcase,.fa-school{
+	font-size: 30px;
+}
+
+.fa-calendar-alt,.fa-building{
+	font-size: 14px;
+}
+
+.fa-building{
+	margin-left: 45px;
+}
+
+
+.fa-laptop, .fa-globe, .fa-tree{
+	font-size: 18px;
+}
+
+.graph{
+	width: 100%;
+}
+
+.part1_left{
+	width: 100%;
+}
+
+.content{
+	padding-left: 20px;
+	line-height: 1.3;
+	font-family: "ubuntu",sans-serif;
+}
+
+.content_ul{
+	padding-left: 60px;
+	line-height: 1.3;
+	font-family: "ubuntu",sans-serif;
+}
+
+.content a{
+	text-decoration: none;
+	color: #009688;
+}
+
+.legend{
+	margin-top: 30px;
+	line-height: 1.3;
+	font-family: "ubuntu",sans-serif;
+	font-size: 14px;
+}
+
+.legend_hr{
+	margin-right: -15px;
+}
+
+
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 7px;
+  font-size: 16px;
+}
+
+input[type=text] {
+  background-color: #f1f1f1;
+}
+
+input[type=button] {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #f0a500; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+.movie{
+	max-width: 100%;
+	padding: 10px 15px;
+	margin: 15px;
+	color: #000;
+	background-color: #f0a500;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);	
+}
+
+.small{
+	color: #000839;
+	font-size: 14px;
+	font-style: italic;
+	font-family: Arial,Sans-Serif;
+	margin: 20px 0;
+
+}
+
+.offset{
+	margin: 0 40px;
+}
+
+#proposed{
+	font-size: 20px;
+	font-family: Ubuntu;
+	line-height: 1.8;
+	color: #005082;
+}
+
+#selected_section{
+	width: 40%;
+}
+
+.explain ul{
+	list-style-type: none;
+	line-height: 1.5;
+}
+
+#center{
+	width: 40%;
+}
+
+
