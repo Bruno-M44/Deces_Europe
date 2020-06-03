@@ -1,1 +1,1 @@
-web gunicorn run:server --timeout 0
+web gunicorn run:server --timeout 0 --preload --workers 1
